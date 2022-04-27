@@ -36,3 +36,8 @@ def get_name():
 def get_name():
     name = NamesControllerImpl().get_name(gender="F")
     return {"Name": f"{name}"}
+
+
+@app.get("/password/{length}")
+def get_password(length: int):
+    pass
