@@ -74,3 +74,16 @@ http://localhost:8000/password/
 
 -   **Language** – Python
 -   **Library** – fastapi
+
+<br>
+
+### Attention!
+
+> **If you want to access the API on your network, through your smartphone, tablet, etc. Look for your ipv4 and initialize the API using this ip.**
+
+EX IP: 192.168.0.26
+Run:
+```
+uvicorn --host "192.168.0.26" main:app
+```
+
