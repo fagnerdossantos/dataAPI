@@ -11,7 +11,7 @@ It is a rest api that generates some kind of random or stored-based data for the
 **People** <br>
 **CPF** <br>
 **Name** <br>
-**Password** > _"Not implemented yet!"_
+**Password**
 
 > Obs: In Brazil, the CPF is the Individual Taxpayer Registry. It is a document made by the Federal Revenue and serves to identify taxpayers. CPF is an 11-digit number.
 
@@ -69,6 +69,10 @@ Password
 http://localhost:8000/password/
 ```
 
+Password -- providing a length
+```
+http://localhost:8000/password/{length}
+```
 
 ## Language and library
 

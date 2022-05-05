@@ -1,7 +1,9 @@
+from typing import Optional
 from fastapi import FastAPI
 
 from cpf.controllers import cpf_controller
 from names.controllers.names_controller import NamesControllerImpl
+from password.controllers.password_controller import PasswordControllerImp
 from people.controllers.people_controller import PeopleControllerImp
 
 # API Object
@@ -38,6 +40,12 @@ def get_name():
     return {"Name": f"{name}"}
 
 
-@app.get("/password/{length}")
-def get_password(length: int):
-    pass
+@app.get("/password")  # Returns a password. Default length of 8
+def get_password():
+    password = PasswordControllerImp().get_password(length=8)
+    return {"Password": f"{password}"}
+
+@app.get("/password/{length}")  # Returns a password based in a choosed length
+def get_password(length: Optional[int] = 8):
+    password = PasswordControllerImp().get_password(length=length)
+    return {"Password": f"{password}"}
