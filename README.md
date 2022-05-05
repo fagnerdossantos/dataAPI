@@ -81,6 +81,12 @@ http://localhost:8000/password/{length}
 
 <br>
 
+## GIF
+ <div>
+  <img src="https://github.com/fagnerdossantos/arquivosRepositorios/blob/main/DataAPI.gif">
+ </div>
+
+
 ### Attention!
 
 > **If you want to access the API on your network, through your smartphone, tablet, etc. Look for your ipv4 and initialize the API using this ip.**
