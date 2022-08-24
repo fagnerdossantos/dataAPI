@@ -81,11 +81,8 @@ http://localhost:8000/password/{length}
 
 <br>
 
-## GIF
- <div>
-  <img src="https://github.com/fagnerdossantos/arquivosRepositorios/blob/main/DataAPI.gif">
- </div>
-
+## Video
+https://user-images.githubusercontent.com/61123877/186533444-52a427f6-4cdb-44c7-b074-da55a246036c.mp4
 
 ### Attention!
 
